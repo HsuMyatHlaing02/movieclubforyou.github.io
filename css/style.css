@@ -1,10 +1,19 @@
- 
  .font-su{
  	font-family: 'Sura', serif;
  }
- .font-so{
+.font-so{
  	    font-family: 'Source Serif Pro', serif;
  }
+
+.font-19{
+	font-size: 19px;
+}
+.font-18{
+	font-size: 18px;
+}
+.bg-black{
+	background: #000;
+}
 
 html{
 	scroll-behavior: smooth;
@@ -38,39 +47,39 @@ html{
 
 
 #action img:hover{
-	transform: scale(1.2);
+	transform: scale(1.02);
 	transition:transform 1s ease;
 }
 #action img:hover{
-	transform: scale(1.2);
+	transform: scale(1.02);
 	transition:transform 1s ease;
 }
 #horror img:hover{
-	transform: scale(1.2);
+	transform: scale(1.02);
 	transition:transform 1s ease;
 }
 #comedy img:hover{
-	transform: scale(1.2);
+	transform: scale(1.02);
 	transition:transform 1s ease;
 }
 #romance img:hover{
-	transform: scale(1.2);
+	transform: scale(1.02);
 	transition:transform 1s ease;
 }
 #cartoon img:hover{
-	transform: scale(1.2);
+	transform: scale(1.02);
 	transition:transform 1s ease;
 }
 #drama img:hover{
-	transform: scale(1.2);
+	transform: scale(1.02);
 	transition:transform 1s ease;
 }
 #anime img:hover{
-	transform: scale(1.2);
+	transform: scale(1.02);
 	transition:transform 1s ease;
 }
 #tv img:hover{
-	transform: scale(1.2);
+	transform: scale(1.02);
 	transition:transform 1s ease;
 }
 
@@ -126,6 +135,16 @@ html{
 	margin-left: 28px;
 }
 
+.drama button:hover{
+	color: #000 !important;
+}
+.dropdown-menu .dropdown-item:hover{
+	background-color: #555555;
+	color: #fff !important;
+}
+
+
+
 
 
 
@@ -136,6 +155,16 @@ html{
 	#sidebar-slider .col-md-3{
 		display: none;
 	}
+	
+	#movie-link button{
+		display: none;
+	}
+	#movie-link h5{
+		display: none;
+	}
 }
-
-
+@media screen and (min-width: 769px){
+	#dropdown{
+		display: none;
+	}
+}
