@@ -168,3 +168,8 @@ html{
 		display: none;
 	}
 }
+@media screen and (max-width: 576px){
+	#dropdown button{
+		width: 20rem !important;
+	}
+}
