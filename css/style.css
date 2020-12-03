@@ -24,7 +24,9 @@ html{
 	padding: 0;
 	margin: 0;
 	background:#201d1d;
+	overflow-x: hidden; 
 }
+
 .form-container{
 	padding:30px;
 	background:#fff;
@@ -93,7 +95,7 @@ html{
 #tv h5{
 	width:200px;
 	height: 50px;
-	line-height: 40px;
+	line-height: 50px;
 	text-align: center;
 }
 
@@ -110,26 +112,26 @@ html{
 	border-top: 50px solid #686c6e ;
 	border-right: 50px solid transparent;
 	position: absolute;
-	margin-left: 61px;
+	margin-left: 62px;
 }
 #horror h5::after{
-	margin-left: 57px;
+	margin-left: 58px;
 }
 
 #comedy h5::after{
 	margin-left: 50px;
 }
 #romance h5::after{
-	margin-left: 8px;
+	margin-left: 9px;
 }
 #cartoon h5::after{
-	margin-left: 50px;
+	margin-left: 52px;
 }
 #drama h5::after{
 	margin-left: 28px;
 }
 #anime h5::after{
-	margin-left: 66px;
+	margin-left: 67px;
 }
 #tv h5::after{
 	margin-left: 28px;
