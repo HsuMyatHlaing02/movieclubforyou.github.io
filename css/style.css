@@ -169,9 +169,103 @@ html{
 	#dropdown{
 		display: none;
 	}
+
 }
 @media screen and (max-width: 576px){
 	#dropdown button{
 		width: 20rem !important;
+	}
+	#action1 .action1{
+		display: none;
+	}
+	#action2 .action2{
+		display: none;
+	}
+	#action3 .action3{
+		display: none;
+	}
+	#anime1 .anime1{
+		display: none;
+	}
+	#anime2 .anime2{
+		display: none;
+	}
+	#anime3 .anime3{
+		display: none;
+	}
+	#anime4 .anime4{
+		display: none;
+	}
+	#cartoon1 .cartoon1{
+		display: none;
+	}
+	#cartoon2 .cartoon2{
+		display: none;
+	}
+	#cartoon3 .cartoon3{
+		display: none;
+	}
+	#cartoon4 .cartoon4{
+		display: none;
+	}
+	#comedy1 .comedy1{
+		display: none;
+	}
+	#comedy2 .comedy2{
+		display: none;
+	}
+	#comedy3 .comedy3{
+		display: none;
+	}
+	#comedy4 .comedy4{
+		display: none;
+	}
+	#drama1 .drama1{
+		display: none;
+	}
+	#drama2 .drama2{
+		display: none;
+	}
+	#drama3 .drama3{
+		display: none;
+	}
+	#drama4 .drama4{
+		display: none;
+	}
+	#horror1 .horror1{
+		display: none;
+	}
+	#horror2 .horror2{
+		display: none;
+	}
+	#horror3 .horror3{
+		display: none;
+	}
+	#horror4 .horror4{
+		display: none;
+	}
+	#romance1 .romance1{
+		display: none;
+	}
+	#romance2 .romence2{
+		display: none;
+	}
+	#romance3 .romance3{
+		display: none;
+	}
+	#romance4 .romance4{
+		display: none;
+	}
+	#tv1 .tv1{
+		display: none;
+	}
+	#tv2 .tv2{
+		display: none;
+	}
+	#tv3 .tv3{
+		display: none;
+	}
+	#tv4 .tv4{
+		display: none;
 	}
 }
